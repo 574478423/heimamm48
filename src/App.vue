@@ -1,6 +1,7 @@
 <template>
-  <div>
-    
+  <div class="app">
+    <!-- 视图容器 -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,5 +11,4 @@ export default {
 </script>
 
 <style>
-
 </style>
